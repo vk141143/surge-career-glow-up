@@ -8,6 +8,7 @@ import JobListings from '@/components/JobListings';
 import BenefitsSection from '@/components/BenefitsSection';
 import ApplicationProcess from '@/components/ApplicationProcess';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import EmployeesSection from '@/components/EmployeesSection';
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <main className="flex-grow">
         <HeroSection />
         <CultureSection />
+        <EmployeesSection />
         <JobListings />
         <BenefitsSection />
         <ApplicationProcess />
